@@ -1,0 +1,15 @@
+lista = []
+soma = 0
+num = 0
+while True:
+	num = (int(input("Digite um numero: ")))
+	if num != 999:
+		soma += num
+	else:
+		num == 999
+		break
+	lista.append(num)
+
+print(f" A soma total dos valores e {soma}")
+print(f' Os numeros dogitados sao {lista}')
+print(f" o valor minimo da lista e {min(lista)}"
