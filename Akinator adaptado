@@ -1,0 +1,41 @@
+print("=*=" * 5)
+print(">>> Akinator <<<")
+print("=*=" *5)
+perg = str(input("O animal é domestico? "))
+if perg == "s":
+	perg = str(input("Esse animal tem quatro patas? "))
+	if perg == "s":
+		perg = str(input("Esse animal late? "))
+		if perg == "s":
+			perg = str(input("Esse animal e um cachorro "))
+			if perg == "s":
+				print("Tenta uma mais dificil")
+		elif perg == "n":
+			perg = str(input("Esse animal mia? "))
+			if perg == "s":
+				perg = str(input("Esse animal e um gato ? "))
+				if perg == "s": 
+					print("Pensei que nao iria conseguir")
+	elif perg == "n":
+		perg = str(input("Esse animal tem duas patas? "))
+		if perg == "s":
+			perg = str(input("Esse animal fica na gaiola? "))
+			if perg == "s":
+				perg = str(input("Esse animal e um passarinho? "))
+				if perg == "s":
+					print("Sabia que eu iria acertar")
+		elif perg == "n":
+			perg = str(input("Seu animal e um peixe? "))
+			if perg == "s":
+					print("Haha te fisguei")
+					
+			elif perg == "n":
+				perg = str(input("esse animal cisca no chao? "))
+				if perg == "s":
+					perg = str(input("Seu animal e uma galinha? "))
+					if perg == "s":
+						print("Ate que nao foi dificil")
+					elif perg == "n":
+						perg = str(input("Esse animal e um pato? "))
+						if perg == "s":
+							print("Esaa foi um pouco mais dificil")
