@@ -1,0 +1,11 @@
+cont = 0
+while cont != 999:
+	from time import sleep
+	num = int(input("Digite um numero: "))
+	for x in range(11):
+		sleep(1)
+		tota = x * num
+		print(f"{x} x {num} = {tota}")
+	cont = int(input("Digite 999 para parar: "))
+print("<<< FIM >>>")
+	
