@@ -1,8 +1,0 @@
-
-def area(a, b):
-	total = a * b
-	print(f"a area do terreno {a} x {b} e de {total}m²")
-
-a = float(input("Largura: "))
-b = float(input("Comprimento: "))
-area(a, b)
